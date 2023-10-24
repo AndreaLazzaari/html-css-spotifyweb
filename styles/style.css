@@ -13,9 +13,10 @@ body{
 }
 
 header{
-    width: 90px;
+    width:60px;
     background-color: black;
     color: white;
+    height: 100vh;
 }
 
 .conteiner{
@@ -38,4 +39,12 @@ header{
 section.conteiner div{
     width: 100%;
     border: 1px solid magenta;
+}
+
+/* Tag Main */
+
+/* Section bottone */
+.upgrade{
+    height: 100px;
+    background-color: gray;
 }
