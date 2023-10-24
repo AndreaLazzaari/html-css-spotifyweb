@@ -16,7 +16,16 @@ header{
     width:60px;
     background-color: black;
     color: white;
-    height: 100vh;
+    height: calc(100vh - 80px);
+}
+
+main{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 80px);
+    background-color: red;
 }
 
 .conteiner{
@@ -53,4 +62,14 @@ section.conteiner div{
 .upgrade{
     height: 100px;
     background-color: gray;
+}
+
+/* Taskbar */
+.taskbar{
+    height: 80px;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }
