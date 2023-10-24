@@ -37,7 +37,8 @@ header{
 /* Tag Header */
 
 section.conteiner div{
-    width: 70%;
+    width: 60%;
+    margin: auto;
 }
 
 
