@@ -5,3 +5,37 @@
     box-sizing: border-box;
 }
 
+/* Generali */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: aqua; */
+}
+
+header{
+    width: 90px;
+    background-color: black;
+    color: white;
+}
+
+.conteiner{
+    width: 100%;
+
+}
+
+/* Flex */
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+/* Tag Header */
+
+section.conteiner div{
+    width: 100%;
+    border: 1px solid magenta;
+}
