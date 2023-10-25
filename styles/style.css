@@ -113,11 +113,12 @@ div#playlist ul li{
     width: 100%;
 }
 
-.nav-main{
+ul.nav-main li{
     align-items: center;
     width: calc(100% / 4);
 
 }
+
 
 /* section ultimi brani ascoltati */
 
