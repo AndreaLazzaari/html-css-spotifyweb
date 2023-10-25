@@ -55,6 +55,10 @@ section.conteiner div{
     margin: auto;
 }
 
+.nascosto{
+    display: none;
+}
+
 
 /* Tag Main */
 
