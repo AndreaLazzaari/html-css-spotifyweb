@@ -123,7 +123,9 @@ hr.nascosto{
     display: none;
 }
 
-section.conteiner div{
+section.mezzo-conteiner div{
+    padding: .3em 0;
+    text-align: left;
     width: 70%;
     margin-left: .8em;
 }
