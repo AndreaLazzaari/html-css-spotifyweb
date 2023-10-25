@@ -37,11 +37,12 @@ ul{
     list-style-type: none;
 }
 
+li{
+    margin-top: .9em;
+}
+
 i{
     font-size: 1.6em;
-}
-h3{
-    color: white;
 }
 
 
@@ -137,6 +138,20 @@ section.mezzo-conteiner div{
     width: 70%;
     margin-left: .8em;
 }
+
+div#playlist h3{
+    margin-top: 1em;
+    margin-bottom: .75em;
+    font-size: .9em;
+    color: white;
+}
+
+div#playlist span{
+    vertical-align: 4px;
+}
+
+
+
 
 }
 
