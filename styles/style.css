@@ -13,7 +13,7 @@ body{
 }
 
 header#navigazione{
-    width:60px;
+    width: 50px;
     background-color: black;
     color: white;
     height: calc(100vh - 80px);
@@ -22,8 +22,8 @@ header#navigazione{
 main{
     position: absolute;
     top: 0;
-    left: 60px;
-    width: calc(100vw - 60px);
+    left: 50px;
+    width: calc(100vw - 50px);
     height: calc(100vh - 80px);
     background-color: red;
 }
@@ -61,6 +61,10 @@ section.conteiner div{
 
 .nascosto{
     display: none;
+}
+
+section.mezzo-conteiner div{
+    padding: .3em 0;
 }
 
 
@@ -107,6 +111,10 @@ section.conteiner div{
 hr.nascosto{
     display: block;
     color: white;
+}
+
+.logo-piccolo{
+    display: none;
 }
 
 }
