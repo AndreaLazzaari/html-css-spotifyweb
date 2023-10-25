@@ -147,7 +147,12 @@ div#playlist h3{
 }
 
 div#playlist span{
-    vertical-align: 4px;
+    vertical-align: 15px;
+    margin-left: .5em;
+}
+
+div#playlist i{
+    font-size: 3.2em;
 }
 
 
