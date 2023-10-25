@@ -95,15 +95,15 @@ header#navigazione img{
 
 .bottone-upgrade{
     border-radius: 3em;
-  font-size: .8em;
-  padding: 1.3em;
-  border: 2px solid fuchsia;
-  background-color: black;
-  color: white;
-  width: 25em;
-  font-weight: bolder;
+    font-size: .8em;
+    padding: 1.3em;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 20em;
+    font-weight: 680;
 
-}
+    }
 
 /* Taskbar */
 .taskbar{
