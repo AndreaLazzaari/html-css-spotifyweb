@@ -15,7 +15,7 @@ body{
 header#navigazione{
     width: 50px;
     background-color: black;
-    color: white;
+    color: #d2d2d2;
     height: calc(100vh - 80px);
 }
 
@@ -40,6 +40,10 @@ ul{
 i{
     font-size: 1.6em;
 }
+h3{
+    color: white;
+}
+
 
 /* Flex */
 
@@ -72,6 +76,10 @@ section.mezzo-conteiner div{
 
 .freccia-piccola{
     font-size: .7em;
+}
+
+header#navigazione img{
+    color: white;
 }
 
 /* Tag Main */
