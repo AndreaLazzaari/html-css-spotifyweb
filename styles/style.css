@@ -12,7 +12,7 @@ body{
     /* background-color: aqua; */
 }
 
-header{
+header#navigazione{
     width:60px;
     background-color: black;
     color: white;
@@ -73,3 +73,6 @@ section.conteiner div{
     width: 100%;
     left: 0;
 }
+
+
+
