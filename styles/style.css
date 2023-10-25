@@ -110,7 +110,13 @@ div#playlist ul li{
 
 /* Section nav tipi di musica */
 .conteiner-main{
-    
+    width: 100%;
+}
+
+.nav-main{
+    align-items: center;
+    width: calc(100% / 4);
+
 }
 
 /* Taskbar */
