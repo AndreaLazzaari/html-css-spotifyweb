@@ -30,12 +30,15 @@ main{
 
 .conteiner{
     width: 100%;
-    margin: auto;
     height: 100%;
 }
 
 ul{
     list-style-type: none;
+}
+
+i{
+    font-size: 1.6em;
 }
 
 /* Flex */
@@ -54,19 +57,22 @@ ul{
 
 /* Tag Header */
 
-section.conteiner div{
-    width: 60%;
-    margin: auto;
-}
-
 .nascosto{
     display: none;
 }
 
 section.mezzo-conteiner div{
     padding: .3em 0;
+    text-align: center;
 }
 
+.logo-piccolo{
+    width: 60%;
+}
+
+.freccia-piccola{
+    font-size: .7em;
+}
 
 /* Tag Main */
 
@@ -115,6 +121,11 @@ hr.nascosto{
 
 .logo-piccolo{
     display: none;
+}
+
+section.conteiner div{
+    width: 70%;
+    margin-left: .8em;
 }
 
 }
