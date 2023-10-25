@@ -9,7 +9,6 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    /* background-color: aqua; */
 }
 
 header#navigazione{
@@ -89,6 +88,21 @@ header#navigazione img{
 .upgrade{
     height: 100px;
     background-color: #080b12;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bottone-upgrade{
+    border-radius: 3em;
+  font-size: .8em;
+  padding: 1.3em;
+  border: 2px solid fuchsia;
+  background-color: black;
+  color: white;
+  width: 25em;
+  font-weight: bolder;
+
 }
 
 /* Taskbar */
