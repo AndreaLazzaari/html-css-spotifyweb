@@ -17,7 +17,7 @@ main{
     left: 50px;
     width: calc(100vw - 50px);
     height: calc(100vh - 80px);
-    background-color: red;
+    background-color: #141922;
     overflow: auto;
 }
 
@@ -34,6 +34,14 @@ i{
     font-size: 1.6em;
 }
 
+/* colori */
+.color-grigio{
+    color: #d2d2d2;
+}
+
+.color-bianco{
+    color: white;
+}
 
 /* Flex */
 
@@ -57,7 +65,6 @@ i{
 header#navigazione{
     width: 50px;
     background-color: black;
-    color: #d2d2d2;
     height: calc(100vh - 80px);
 }
 
@@ -103,7 +110,6 @@ div#playlist ul li{
     padding: 1.3em;
     border: 2px solid white;
     background-color: black;
-    color: white;
     width: 20em;
     font-weight: 680;
 
@@ -124,19 +130,18 @@ ul.nav-main li{
     font-size: .8em;
     padding-bottom: 2em;
     text-align: center;
-
 }
 
 
 /* section ultimi brani ascoltati */
 article.brani{
-    width: calc(100vw / 2);
+    width: calc((100% / 2) - 1.2em);
     text-align: center;
-
+    margin-left: .6em;
 }
 
 section.conteiner-main h2{
-    margin-left: .6em;
+    margin-left: .37em;
 }
 
 article.brani img{
@@ -178,7 +183,7 @@ article.brani img{
 
 hr.nascosto{
     display: block;
-    color: white;
+    /* color: white; */
 }
 
 .logo-piccolo{
@@ -196,7 +201,6 @@ div#playlist h3{
     margin-top: 1em;
     margin-bottom: .75em;
     font-size: .9em;
-    color: white;
 }
 
 div#playlist span{
