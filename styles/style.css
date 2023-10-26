@@ -128,7 +128,19 @@ ul.nav-main li{
 
 
 /* section ultimi brani ascoltati */
+article.brani{
+    width: calc(100vw / 2);
+    text-align: center;
 
+}
+
+section.conteiner-main h2{
+    margin-left: .6em;
+}
+
+article.brani img{
+    width: 100%;
+}
 
 
 /* Taskbar */
