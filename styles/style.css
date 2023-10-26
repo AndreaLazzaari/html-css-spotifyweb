@@ -18,6 +18,7 @@ main{
     width: calc(100vw - 50px);
     height: calc(100vh - 80px);
     background-color: red;
+    overflow: auto;
 }
 
 .conteiner{
