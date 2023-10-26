@@ -119,10 +119,11 @@ div#playlist ul li{
 }
 
 ul.nav-main li{
-    align-items: center;
     width: calc(100% / 4);
     font-size: .8em;
     padding-bottom: 2em;
+    text-align: center;
+
 }
 
 
@@ -194,7 +195,10 @@ div#playlist i{
     font-size: 3.2em;
 }
 
-
+/* Nav tipi di musica */
+ul.nav-main li{
+    width: calc(100% / 3);
+}
 
 
 }
@@ -202,10 +206,18 @@ div#playlist i{
 
 /* Media query md */
 @media screen and (min-width: 768px){
+    /* Nav tipi di musica */
+    ul.nav-main li{
+    width: calc(100% / 5);
+}
+
 
 }
 
 /* Media query l */
 @media screen and (min-width: 992px){
-
+/* Nav tipi di musica */
+    ul.nav-main li{
+    width: calc(100% / 6);
+}
 }
