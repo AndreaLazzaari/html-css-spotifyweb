@@ -111,15 +111,18 @@ div#playlist ul li{
 /* Section nav tipi di musica */
 .conteiner-main{
     width: 100%;
+    
 }
 .nav-main{
     justify-content: center;
+    padding: 1em .5em 2em .5em;
 }
 
 ul.nav-main li{
     align-items: center;
     width: calc(100% / 4);
-    fo
+    font-size: .8em;
+    padding-bottom: 2em;
 }
 
 
