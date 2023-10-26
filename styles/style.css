@@ -138,10 +138,12 @@ article.brani{
     width: calc((100% / 2) - 1.2em);
     text-align: center;
     margin-left: .6em;
+    margin-bottom: 1em;
 }
 
 section.conteiner-main h2{
     margin-left: .37em;
+    margin-bottom: 1.5em;
 }
 
 article.brani img{
@@ -228,6 +230,9 @@ ul.nav-main li{
     width: calc(100% / 5);
 }
 
+article.brani{
+    width: calc((100% / 4) - 1.2em);
+}
 
 }
 
@@ -236,5 +241,9 @@ ul.nav-main li{
 /* Nav tipi di musica */
     ul.nav-main li{
     width: calc(100% / 6);
+}
+
+article.brani{
+    width: calc((100% / 6) - 1.2em);
 }
 }
