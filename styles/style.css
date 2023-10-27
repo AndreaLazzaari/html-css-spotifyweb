@@ -154,12 +154,30 @@ article.brani img{
 /* Taskbar */
 .taskbar{
     height: 80px;
-    background-color: green;
+    background-color: #282828;
     position: fixed;
     bottom: 0;
     width: 100%;
     left: 0;
 }
+
+.uno-tre-task{
+    width: calc(100% / 3);
+}
+
+.riproduzione{
+    width: 100%;
+}
+
+section.uno-tre-task > div.riproduzione{
+    align-items: center;
+}
+
+section.uno-tre-task div.riproduzione img{
+    height: 100%;
+    padding: 1em;
+}
+
 
 
 
